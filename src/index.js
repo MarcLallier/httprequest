@@ -7,7 +7,7 @@ import axios from 'axios'
 
 
 axios.defaults.baseURL = 'https://jsonplaceholder.typicode.com'
-//axios.defaults.headers.common['AUTHORIZATION'] = 'AUTH TOKEN'
+//put interceptor in index jsaxios.defaults.headers.common['AUTHORIZATION'] = 'AUTH TOKEN'
 //axios.defaults.headers.post['Content-Type'] = 'application/json'
 
 //mettre l'interceptor toujour sur index.js le fichier le plus haut
